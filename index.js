@@ -1,6 +1,6 @@
 let todoItems = [];
 let doneItems = [];
-console.log(doneItems)
+
 
 
 function renderTodo(todo) {
@@ -23,10 +23,7 @@ function renderTodo(todo) {
     <label for="${todo.id}" class="tick js-tick"></label>
     <span>${todo.text}</span>`
 
-        date.setAttribute("data-key", todo.id)
-        date.innerHTML = `
-        <input id="${todo.id} type="date"/>
-        <label for="${todo.id}" class="date-list"></label>` 
+        
   ;
         // console.log(doneList);
         item.remove();
