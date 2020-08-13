@@ -1,5 +1,6 @@
 let todoItems = [];
 let doneItems = [];
+console.log(doneItems)
 
 
 function renderTodo(todo) {
